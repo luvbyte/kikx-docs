@@ -1,0 +1,62 @@
+site_name: KIKX
+site_description: Application runtime for the web
+site_url: https://kikx-docs.vercel.app
+
+theme:
+  name: material
+  logo: images/logo.png
+  favicon: images/favicon.ico
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Home: index.md
+
+  - Getting Started:
+      - Installation: getting-started/installation.md
+      - First App: getting-started/first-app.md
+
+  # - Concepts:
+  #     - Overview: concepts/overview.md
+  #     - Architecture: concepts/architecture.md
+  #     - App Runtime: concepts/app-runtime.md
+
+  - Development:
+      - App Development: development/app-development.md
+      - SDK: development/sdk.md
+
+  - Services:
+      - Overview: services/overview.md
+      - Filesystem: services/fs.md
+      - Proxy: services/proxy.md
+      - KV Storage: services/kv.md
+      - Tasker: services/tasker.md
+      - Microservices: services/micro.md
+      - OS: services/os.md
+      - Alerts: services/alerts.md
+      - Invoker: services/invoker.md
+      - Kpm: services/kpm.md
+      - System: services/system.md
+
+  # - API:
+  #     - API Overview: api/overview.md
