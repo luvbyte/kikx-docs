@@ -2,6 +2,15 @@
 
 ## Methods
 
+### `kikxInfo()`
+
+Retrieve information for both kikx & application.
+
+* **Parameters:** None
+* **Returns:** Promise resolving to kikx & app info.
+
+---
+
 ### `appInfo()`
 
 Retrieve information about the application.

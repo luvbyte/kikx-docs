@@ -268,6 +268,22 @@ Remove a message listener with `offMessage()`.
 app.offMessage("CHECK_WS", handler);
 ```
 
+Use `onFocus()` for app focus in UI.
+
+```js
+app.onFocus(() => {
+  console.log("App Focus");
+});
+```
+
+Use `onBlur()` for app unfocus in UI.
+
+```js
+app.onBlur(() => {
+  console.log("App Blur");
+});
+```
+
 ## Complete API Example
 
 ```js
